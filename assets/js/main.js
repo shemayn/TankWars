@@ -6,7 +6,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     // Initialize loader
-    initLoader();
+    // initLoader();
 
     // Initialize all components once page is loaded
     setTimeout(() => {
@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
  * Page Loader
  * Inspired by CaneFly loading screen
  */
+/*
 function initLoader() {
     const loader = document.createElement('div');
     loader.className = 'loader';
@@ -61,6 +62,7 @@ function initLoader() {
         progressText.textContent = `${progress}%`;
     }, 100);
 }
+*/
 
 /**
  * Mobile Navigation Toggle with enhanced animations
@@ -487,4 +489,4 @@ if (authForms.length > 0) {
             }
         });
     });
-} 
+}
